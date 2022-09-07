@@ -27,6 +27,9 @@ img {
     max-width: 100%;
 }
 /* #region COLUMN */
+.col-2 {
+    width:  calc((100%/12)*2); 
+}
 
 .col-3 {
     width:  calc((100%/12)*3); 
@@ -36,9 +39,7 @@ img {
     width:  calc((100%/12)*4); 
 }
 
-.col-6 {
-    width:  calc((100%/12)*6); 
-}
+
 
 .col-9 {
     width:  calc((100%/12)*9); 
@@ -50,12 +51,15 @@ header {
     background-color: var(--bol-banner);
     padding: 1rem;
 }
-
-a {
+.a_banner, .a_widget {
     color: white;
     text-decoration: none;
+    padding-right: 0.4rem;
+
+}
+
+.a_banner {
     font-size: 15px;
-    padding-right: 0.5rem;
 }
 
 .logo {
@@ -160,3 +164,27 @@ i {
 	display: block;   
 }
 /* #endregion CARDS */
+
+/* #region FOOTER */
+footer {
+    background-color: var(--bol-footer);
+    color: var(--bol-white);
+    padding: 1.5rem;
+}
+
+
+.a_widget {
+    font-size: 10px;
+
+}
+
+h6 {
+    text-align: end;
+    padding-bottom: 0.3rem;
+}
+.social {
+    width: 15px;
+    padding-left: 0.5rem;
+}
+
+/* #endregion FOOTER */
