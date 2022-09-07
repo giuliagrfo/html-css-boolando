@@ -24,7 +24,7 @@ body {
 
 .row {
     display: flex;
-    justify-content: space-between;
+    align-content: center;
 }
 
 img {
@@ -53,6 +53,10 @@ img {
 header {
     background-color: var(--bol-banner);
     padding: 1rem;
+}
+
+.banner {
+    flex-wrap: nowrap;
 }
 
 .a_banner, .a_widget {
@@ -87,7 +91,6 @@ i {
 
 .product {
     margin: 2.5rem 0.5rem;
-    
 }
 
 .card {
@@ -100,7 +103,7 @@ i {
     font-size: 8px;
     color: var(--bol-white);
     position: absolute;
-    bottom: 25px;
+    bottom: 80px;
 }
 
 .bg_number {
@@ -111,11 +114,10 @@ i {
 .bg_sust, .bg_esprit {
     background-color: var(--bol-sustainability);
     position: absolute;
-   
 }
 
 .bg_sust {
-    left: 32px;
+    left: 35px;
 }
 
 .bg_esprit {
