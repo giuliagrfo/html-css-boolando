@@ -30,6 +30,7 @@ body {
 img {
     max-width: 100%;
 }
+
 /* #region COLUMN */
 .col-2 {
     width:  calc((100%/12)*2); 
@@ -42,8 +43,6 @@ img {
 .col-4 {
     width:  calc((100%/12)*4); 
 }
-
-
 
 .col-9 {
     width:  calc((100%/12)*9); 
@@ -176,16 +175,15 @@ footer {
     padding: 1.5rem;
 }
 
-
 .a_widget {
     font-size: 10px;
-
 }
 
 h6 {
     text-align: end;
     padding-bottom: 0.3rem;
 }
+
 .social {
     width: 15px;
     padding-left: 0.5rem;
