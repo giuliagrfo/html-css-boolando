@@ -20,7 +20,7 @@
 
 .row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 img {
@@ -30,6 +30,14 @@ img {
 
 .col-3 {
     width:  calc((100%/12)*3); 
+}
+
+.col-4 {
+    width:  calc((100%/12)*4); 
+}
+
+.col-6 {
+    width:  calc((100%/12)*6); 
 }
 
 .col-9 {
@@ -71,7 +79,7 @@ i {
 /* #region CARDS*/
 
 .product {
-    margin: 1rem;
+    margin: 2.5rem 0.5rem;
     
 }
 
@@ -93,10 +101,20 @@ i {
 
 }
 
-.bg_sust {
+.bg_sust, .bg_esprit {
     background-color: var(--bol-sustainability);
     position: absolute;
+   
+}
+
+.bg_sust {
     left: 32px;
+}
+
+.bg_esprit {
+    background-color: var(--bol-sustainability);
+    position: absolute;
+    left: 0;
 }
 
 .heart {
@@ -107,7 +125,9 @@ i {
     padding: 0.3rem 0.6rem;
 }
 
-
+.heart:hover {
+    color: #FF0000;
+}
 .brand {
     font-size: 10px;
 }
