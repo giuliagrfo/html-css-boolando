@@ -20,6 +20,7 @@
 
 .row {
     display: flex;
+    justify-content: center;
 }
 
 img {
@@ -36,6 +37,7 @@ img {
 }
 /* #endregion COLUMN */
 
+/* #region BANNER*/
 header {
     background-color: var(--bol-banner);
     padding: 1rem;
@@ -64,4 +66,77 @@ i {
     padding-right: 0.2rem;
     font-size: 13px;    
 }
+/* #endregion BANNER*/
 
+/* #region CARDS*/
+
+.product {
+    margin: 1rem;
+    
+}
+
+.card {
+    position: relative;
+}
+
+.badge {
+    padding: 0.2rem 0.4rem;
+    text-align: center;
+    font-size: 8px;
+    color: var(--bol-white);
+    position: absolute;
+    bottom: 25px;
+}
+
+.bg_number {
+    background-color: var(--bol-badge_number);
+
+}
+
+.bg_sust {
+    background-color: var(--bol-sustainability);
+    position: absolute;
+    left: 32px;
+}
+
+.heart {
+    background-color: var(--bol-white);
+    position: absolute;
+    top: 5px;
+    right: 0;
+    padding: 0.3rem 0.6rem;
+}
+
+
+.brand {
+    font-size: 10px;
+}
+
+.pt_price {
+    font-size: 10px;
+}
+
+.sale {
+    color: var(--bol-badge_number)
+}
+
+.price {
+    text-decoration: line-through;
+}
+
+
+.ig2_product {
+	display: none;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+.card:hover .ig_product {
+	display: none;
+}
+
+.card:hover .ig2_product {
+	display: block;   
+}
+/* #endregion CARDS */
