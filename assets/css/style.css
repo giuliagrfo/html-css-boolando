@@ -25,6 +25,7 @@ body {
 .row {
     display: flex;
     align-content: center;
+    flex-wrap: wrap;
 }
 
 img {
@@ -46,6 +47,10 @@ img {
 
 .col-9 {
     width:  calc((100%/12)*9); 
+}
+
+.col-6 {
+    width:  calc((100%/12)*6); 
 }
 /* #endregion COLUMN */
 
@@ -95,6 +100,10 @@ i {
 
 .card {
     position: relative;
+}
+
+.cards {
+    justify-content: center;
 }
 
 .badge {
