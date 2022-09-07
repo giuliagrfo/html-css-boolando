@@ -1,3 +1,12 @@
+:root {
+    
+    --bol-badge_number: #FF0000;
+    --bol-white: #FFFFFF;
+    --bol-footer: #1A1A1A;
+    --bol-banner: #FF6900;
+    --bol-sustainability: #008000;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,5 +16,52 @@
 .container {
     width: 80%;
     margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+/* #region COLUMN */
+
+.col-3 {
+    width:  calc((100%/12)*3); 
+}
+
+.col-9 {
+    width:  calc((100%/12)*9); 
+}
+/* #endregion COLUMN */
+
+header {
+    background-color: var(--bol-banner);
+    padding: 1rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 0.5rem;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.icon {
+    color: white;
+    text-align: end;
+}
+
+i {
+    padding-right: 0.2rem;
+    font-size: 13px;    
 }
 
